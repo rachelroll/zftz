@@ -1,0 +1,84 @@
+*{margin: 0px; padding: 0px; font-family: "微软雅黑"; font-size: 12px;}
+a{text-decoration: none;}
+li{list-style: none;}
+img{border: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{width: 0px; height: 0px; clear: both;}
+.center{width: 1184px; margin: 0 auto;}
+
+
+
+
+
+.top{width: 100%; height: 101px; background: #ffffff;}
+.top_left{width: 287px; height: 101px; float: left;}
+.top_left img{display: block; float: left;}
+
+
+.aa3{width: 672px; height: 20px; top: 20px; float: left; margin-top: 40px; margin-left: 225px;}
+.aa3 ul{width: 672px; height: 20px;}
+.aa3 ul li{float: left;}
+.aa3 ul li a{display: block ;width: 112px; height: 20px; text-align: center; line-height: 20px; color: #515151; font-size: 14px;}
+.aa3 ul li a:hover{color: #c60a12;}
+
+
+.nav{width: 100%; height: 556px;}
+.aa1{width: 100%; height: 556px;}
+.aa4{width: 210px; height: 11px; position: absolute; right: 42.6%; top: 550px;}
+.aa4 ul{width: 210px; height: 4px;}
+.aa4 ul li{width: 50px; height: 4px; float: left; margin-left: 20px; border-bottom: 4px solid #FFFFFF}
+.aa4 ul li:hover{border-bottom: 4px solid #c60a12;}
+
+
+.con{width: 100%; height: 2274px;}
+.co1{width: 100%; height: 117px; padding-top: 115px;}
+.co2{width: 100%; height: 43px; padding-top: 59px;}
+.i1{width: 335px; height: 117px; margin: 0px auto; display: block;}
+.i2{width: 142px; height: 43px; margin: 0px auto; display: block;}
+.con2{width: 100%; height: 422px; padding-top: 51px;}
+.v1{width: 346px; height: 422px;}
+.v2{width: 304px; height: 422px;}
+.v3{width: 297px; height: 422px;}
+.v4{width: 235px; height: 422px;}
+.v1 p{width: 225px; height: 85px; font-size: 16px; color: #7c7c7c; line-height: 25px; padding-top: 48px; padding-left: 10px;}
+.v2 p{width: 186px; height: 116px; font-size: 16px; color: #7c7c7c; line-height: 25px; padding-top: 34px; padding-left: 10px;}
+.v3 p{width: 181px; height: 86px; font-size: 16px; color: #7c7c7c; line-height: 25px; padding-top: 48px; padding-left: 10px; text-align: center;}
+.v4 p{width: 235px; height: 80px; font-size: 16px; color: #7c7c7c; line-height: 25px; padding-top: 48px; padding-left: 10px; text-align: center;}
+.i3{width: 142px; height: 43px; margin: 0px auto; display: block;}
+.c{width: 100%; height: 1168px; padding-top: 91px;}
+.c1{width: 100%; height: 292px;}
+.c2{width: 100%; height: 292px;}
+.c3{width: 100%; height: 292px;}
+.c4{width: 100%; height: 292px;}
+.y5{width: 592px; height: 292px; display: block;}
+.y6{width: 591px; height: 292px; display: block;}
+.y7{width: 591px; height: 292px; display: block;}
+.y8{width: 591px; height: 292px; display: block;}
+.yy5{width: 592px; height: 292px; background: #eeeeee; display: block;}
+.yy6{width: 593px; height: 292px; background: #eeeeee; display: block;}
+.yy7{width: 593px; height: 292px; background: #eeeeee; display: block;}
+.yy8{width: 593px; height: 292px; background: #eeeeee; display: block;}
+.yy5 b{font-size: 20px; color: #333333; line-height: 25px; padding-top: 80px; padding-left: 115px; display: block;}
+.yy5 span{font-size: 15px; color: #7C7C7C; line-height: 25px; padding-top: 30px; padding-left: 115px; display: block; text-align: justify;}
+.yy6 b{font-size: 20px; color: #333333; line-height: 25px; padding-top: 80px; padding-left: 115px; display: block;}
+.yy6 span{font-size: 15px; color: #7C7C7C; line-height: 25px; padding-top: 30px; padding-left: 115px; display: block; text-align: justify;}
+.yy7 b{font-size: 20px; color: #333333; line-height: 25px; padding-top: 80px; padding-left: 115px; display: block;}
+.yy7 span{font-size: 15px; color: #7C7C7C; line-height: 25px; padding-top: 30px; padding-left: 115px; display: block; text-align: justify;}
+.yy8 b{font-size: 20px; color: #333333; line-height: 25px; padding-top: 80px; padding-left: 115px; display: block;}
+.yy8 span{font-size: 15px; color: #7C7C7C; line-height: 25px; padding-top: 30px; padding-left: 115px; display: block; text-align: justify;}
+
+
+
+
+
+
+.footer{width: 100%; height: 216px; background: #c60a12;}
+.f{width: 100%; height: 22px;}
+.nav_ul{width: 740px; height: 22px; float: left; margin-top: 44px; margin-left: 355px;}
+.nav_ul li{float: left;}
+.hr{border-right: 2px solid #FFFFFF; color: #FFFFFF; padding: 0px 16px 0px;}
+.ff{width: 100%; height: 100px; float: left;}
+.fff{width: 100%; height: 30px;}
+.ff h1{color: #FFFFFF; text-align: center; font-size: 50px;}
+.ff p{color: #FFFFFF; text-align: center;}

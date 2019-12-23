@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>中福华康</title>
+		<link type="text/css" href="css/style.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="top">
+			<div class="center">
+				<div class="fl top_left">
+					
+					<img src="img/images/a_1_02.png" />
+					</div>
+					
+					<div class="aa3" class="fr">
+				<ul class="fl">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="index1.html#btn_next">关于我们</a></li>
+					<li><a href="index2.html">业务领域</a></li>
+					<li><a href="index5.html">投资策略</a></li>
+					<li><a href="index3.html">新闻咨讯</a></li>
+					<li><a href="index4.html">联系我们</a></li>
+				</ul>
+				
+					
+					
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+        	
+      <!--
+      	
+       <div class="nav">
+			
+				
+				
+					<img src="img/images/a_02.jpg" class="aa1" />
+		    
+		</div>
+		<div class="aa4">
+				<ul class="fl">
+							<li></li>
+							<li></li>
+							<li></li>
+					</ul>
+				</div>
+		-->
+		
+		<div class="main_visual">
+	<div class="flicking_con">
+		<a href="#">1</a>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+	</div>
+	<div class="main_image">
+		<ul>
+			<li><span class="img_1"></span></li>
+			<li><span class="img_2"></span></li>
+			<li><span class="img_3"></span></li>
+			<li><span class="img_4"></span></li>
+			<li><span class="img_5"></span></li>
+		</ul>
+		<a href="javascript:;" id="btn_prev"></a>
+		<a href="javascript:;" id="btn_next"></a>
+	</div>
+</div>
+		
+		
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script>
+<script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".main_visual").hover(function(){
+		$("#btn_prev,#btn_next").fadeIn()
+	},function(){
+		$("#btn_prev,#btn_next").fadeOut()
+	});
+	
+	$dragBln = false;
+	
+	$(".main_image").touchSlider({
+		flexible : true,
+		speed : 200,
+		btn_prev : $("#btn_prev"),
+		btn_next : $("#btn_next"),
+		paging : $(".flicking_con a"),
+		counter : function (e){
+			$(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+		}
+	});
+	
+	$(".main_image").bind("mousedown", function() {
+		$dragBln = false;
+	});
+	
+	$(".main_image").bind("dragstart", function() {
+		$dragBln = true;
+	});
+	
+	$(".main_image a").click(function(){
+		if($dragBln) {
+			return false;
+		}
+	});
+	
+	timer = setInterval(function(){
+		$("#btn_next").click();
+	}, 5000);
+	
+	$(".main_visual").hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		},5000);
+	});
+	
+	$(".main_image").bind("touchstart",function(){
+		clearInterval(timer);
+	}).bind("touchend", function(){
+		timer = setInterval(function(){
+			$("#btn_next").click();
+		}, 5000);
+	});
+	
+});
+</script>
+
+
+
+
+	
+
+		
+		
+				
+				
+				
+				
+				<div class="con1">
+				<div class="center">
+					<div class="con1_left fl">
+						<img src="img/images/b_05.jpg"/>
+						<p class="fl">中福华康是一家独特专业的实业投资公司，由国机集团等多个战略投资人控股，总部设在北京。<br/><br/>公司业务遍及全国，在海内外均拥有丰富的项目与人脉资源，既与各级政府保持良好合作关系，又是&nbsp;国际上多家著名投资机构在中国大陆的战略合作伙伴。<br/><br/>经过多年稳健经营，中福华康的投资领域愈发多元化，由过去单一的农机商贸业务，逐渐向机械工业、&nbsp;产业地产、科教传媒、金融贸易等产业渗透，正发展成一家具备跨国资本运作背景的金融服务机构和&nbsp;产业地产资本运营服务商。</p>
+
+					</div>
+					
+					<div class="con1_right fr">
+					<a href="index1.html"><img src="img/images/b_07.jpg" /></a>
+						
+						
+		
+</div>
+</div>
+</div>
+
+
+
+
+
+            <div class="con2">
+				<div class="center">
+					<div class="con2_left fl">
+						<img src="img/images/c_12.jpg"/>
+						
+					</div>
+					
+					<div class="con2_right">
+						<a href="index2_2.html" class="con2_right1"></a>
+						<a href="index2_1.html" class="con2_right2"></a>
+						<a href="index2_3.html" class="con2_right3"></a>
+						<a href="index2_5.html" class="con2_right4"></a>
+						<a href="index2_4.html" class="con2_right5"></a>
+						
+		
+</div>
+</div>
+</div>
+
+
+
+
+                <div class="con3">
+				<div class="center">
+					<div class="con3_left fl">
+						<img src="img/images/e_23.jpg"/>
+						
+					</div>
+					
+					<div class="con3_right">
+						<div class="ht1">
+							<div class="ht5"></div>
+							<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOURCE</h1>
+							<div class="ht6"></div>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADVANTAGES</p>
+							<div class="ht7"></div>
+							<a href="index5.html"><b>&nbsp;&nbsp;&nbsp;资源优势</b></a>
+							<div class="ht9"></div>
+							<a href="index5.html" class="ht8"><font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看更多</font></a>
+							<a href="index5.html"><span>+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+						</div>
+					 <a class="ht2" href="index5.html"><img src="img/images/fg_2.jpg"/></a>
+						<div class="ht3">
+							<div class="ht5"></div>
+							<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INVESTMENT</h1>
+							<div class="ht6"></div>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STRATEGY</p>
+							<div class="ht7"></div>
+							<a href="index5.html"><b>&nbsp;&nbsp;&nbsp;投资策略</b></a>
+							<div class="ht9"></div>
+							<a href="index5.html" class="ht8"><font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查看更多</font></a>
+							<a href="index5.html"><span>+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+						</div>
+						<a class="ht4" href="index5.html"><img src="img/images/fg_4.jpg"/></a>
+						
+		
+</div>
+</div>
+</div>
+
+
+
+
+		
+		
+		<div class="footer">
+			<div class="center">
+				<div class="f">
+				<ul class="nav_ul">
+					<li><a href="index.html" class="hr">首页</a></li>
+					<li><a href="index1.html" class="hr">关于我们</a></li>
+					<li><a href="index2.html" class="hr">业务领域</a></li>
+					<li><a href="index5.html" class="hr">投资项目</a></li>
+					<li><a href="index3.html" class="hr">新闻资讯</a></li>
+					<li><a href="index4.html" class="hr" style="border: none; padding-right: 0px;">联系我们</a></li>
+				</ul>
+				</div>
+				<div class="ff">
+				<div class="fff"></div>
+				<h1>010-80419913</h1>
+				<p>北京市东城区崇文门外大街3号新世界写字楼B座915</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
